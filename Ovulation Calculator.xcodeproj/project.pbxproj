@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD50F57F169A337700C85B61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD50F57E169A337700C85B61 /* UIKit.framework */; };
+		AD50F581169A337700C85B61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD50F580169A337700C85B61 /* Foundation.framework */; };
+		AD50F583169A337700C85B61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD50F582169A337700C85B61 /* CoreGraphics.framework */; };
+		AD50F589169A337700C85B61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD50F587169A337700C85B61 /* InfoPlist.strings */; };
+		AD50F58B169A337700C85B61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD50F58A169A337700C85B61 /* main.m */; };
+		AD50F58F169A337700C85B61 /* Ovulation_CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD50F58E169A337700C85B61 /* Ovulation_CalculatorAppDelegate.m */; };
+		AD50F591169A337700C85B61 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AD50F590169A337700C85B61 /* Default.png */; };
+		AD50F593169A337700C85B61 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD50F592169A337700C85B61 /* Default@2x.png */; };
+		AD50F595169A337700C85B61 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AD50F594169A337700C85B61 /* Default-568h@2x.png */; };
+		AD50F598169A337700C85B61 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD50F596169A337700C85B61 /* MainStoryboard_iPhone.storyboard */; };
+		AD50F59B169A337700C85B61 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD50F599169A337700C85B61 /* MainStoryboard_iPad.storyboard */; };
+		AD50F59E169A337700C85B61 /* Ovulation_CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD50F59D169A337700C85B61 /* Ovulation_CalculatorViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD50F57A169A337700C85B61 /* Ovulation Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ovulation Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD50F57E169A337700C85B61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD50F580169A337700C85B61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD50F582169A337700C85B61 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD50F586169A337700C85B61 /* Ovulation Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ovulation Calculator-Info.plist"; sourceTree = "<group>"; };
+		AD50F588169A337700C85B61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD50F58A169A337700C85B61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD50F58C169A337700C85B61 /* Ovulation Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ovulation Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		AD50F58D169A337700C85B61 /* Ovulation_CalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ovulation_CalculatorAppDelegate.h; sourceTree = "<group>"; };
+		AD50F58E169A337700C85B61 /* Ovulation_CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ovulation_CalculatorAppDelegate.m; sourceTree = "<group>"; };
+		AD50F590169A337700C85B61 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AD50F592169A337700C85B61 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AD50F594169A337700C85B61 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AD50F597169A337700C85B61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		AD50F59A169A337700C85B61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		AD50F59C169A337700C85B61 /* Ovulation_CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ovulation_CalculatorViewController.h; sourceTree = "<group>"; };
+		AD50F59D169A337700C85B61 /* Ovulation_CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ovulation_CalculatorViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD50F577169A337700C85B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD50F57F169A337700C85B61 /* UIKit.framework in Frameworks */,
+				AD50F581169A337700C85B61 /* Foundation.framework in Frameworks */,
+				AD50F583169A337700C85B61 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD50F56F169A337700C85B61 = {
+			isa = PBXGroup;
+			children = (
+				AD50F584169A337700C85B61 /* Ovulation Calculator */,
+				AD50F57D169A337700C85B61 /* Frameworks */,
+				AD50F57B169A337700C85B61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD50F57B169A337700C85B61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD50F57A169A337700C85B61 /* Ovulation Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD50F57D169A337700C85B61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD50F57E169A337700C85B61 /* UIKit.framework */,
+				AD50F580169A337700C85B61 /* Foundation.framework */,
+				AD50F582169A337700C85B61 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD50F584169A337700C85B61 /* Ovulation Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				AD50F58D169A337700C85B61 /* Ovulation_CalculatorAppDelegate.h */,
+				AD50F58E169A337700C85B61 /* Ovulation_CalculatorAppDelegate.m */,
+				AD50F596169A337700C85B61 /* MainStoryboard_iPhone.storyboard */,
+				AD50F599169A337700C85B61 /* MainStoryboard_iPad.storyboard */,
+				AD50F59C169A337700C85B61 /* Ovulation_CalculatorViewController.h */,
+				AD50F59D169A337700C85B61 /* Ovulation_CalculatorViewController.m */,
+				AD50F585169A337700C85B61 /* Supporting Files */,
+			);
+			path = "Ovulation Calculator";
+			sourceTree = "<group>";
+		};
+		AD50F585169A337700C85B61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD50F586169A337700C85B61 /* Ovulation Calculator-Info.plist */,
+				AD50F587169A337700C85B61 /* InfoPlist.strings */,
+				AD50F58A169A337700C85B61 /* main.m */,
+				AD50F58C169A337700C85B61 /* Ovulation Calculator-Prefix.pch */,
+				AD50F590169A337700C85B61 /* Default.png */,
+				AD50F592169A337700C85B61 /* Default@2x.png */,
+				AD50F594169A337700C85B61 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD50F579169A337700C85B61 /* Ovulation Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD50F5A1169A337700C85B61 /* Build configuration list for PBXNativeTarget "Ovulation Calculator" */;
+			buildPhases = (
+				AD50F576169A337700C85B61 /* Sources */,
+				AD50F577169A337700C85B61 /* Frameworks */,
+				AD50F578169A337700C85B61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ovulation Calculator";
+			productName = "Ovulation Calculator";
+			productReference = AD50F57A169A337700C85B61 /* Ovulation Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD50F571169A337700C85B61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "Ovulation Calculator";
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Andy Brown";
+			};
+			buildConfigurationList = AD50F574169A337700C85B61 /* Build configuration list for PBXProject "Ovulation Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD50F56F169A337700C85B61;
+			productRefGroup = AD50F57B169A337700C85B61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD50F579169A337700C85B61 /* Ovulation Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD50F578169A337700C85B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD50F589169A337700C85B61 /* InfoPlist.strings in Resources */,
+				AD50F591169A337700C85B61 /* Default.png in Resources */,
+				AD50F593169A337700C85B61 /* Default@2x.png in Resources */,
+				AD50F595169A337700C85B61 /* Default-568h@2x.png in Resources */,
+				AD50F598169A337700C85B61 /* MainStoryboard_iPhone.storyboard in Resources */,
+				AD50F59B169A337700C85B61 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD50F576169A337700C85B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD50F58B169A337700C85B61 /* main.m in Sources */,
+				AD50F58F169A337700C85B61 /* Ovulation_CalculatorAppDelegate.m in Sources */,
+				AD50F59E169A337700C85B61 /* Ovulation_CalculatorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD50F587169A337700C85B61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD50F588169A337700C85B61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AD50F596169A337700C85B61 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD50F597169A337700C85B61 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		AD50F599169A337700C85B61 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD50F59A169A337700C85B61 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD50F59F169A337700C85B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD50F5A0169A337700C85B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD50F5A2169A337700C85B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ovulation Calculator/Ovulation Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Ovulation Calculator/Ovulation Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD50F5A3169A337700C85B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ovulation Calculator/Ovulation Calculator-Prefix.pch";
+				INFOPLIST_FILE = "Ovulation Calculator/Ovulation Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD50F574169A337700C85B61 /* Build configuration list for PBXProject "Ovulation Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD50F59F169A337700C85B61 /* Debug */,
+				AD50F5A0169A337700C85B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD50F5A1169A337700C85B61 /* Build configuration list for PBXNativeTarget "Ovulation Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD50F5A2169A337700C85B61 /* Debug */,
+				AD50F5A3169A337700C85B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD50F571169A337700C85B61 /* Project object */;
+}
