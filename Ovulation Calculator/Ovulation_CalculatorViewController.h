@@ -10,4 +10,10 @@
 
 @interface Ovulation_CalculatorViewController : UIViewController
 
+- (IBAction)calculateButton:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UIPickerView *dayPicker;
+@property (strong, nonatomic) NSMutableArray *dayArray;
+@property (nonatomic, retain) IBOutlet UIDatePicker *datePicker;
+
 @end

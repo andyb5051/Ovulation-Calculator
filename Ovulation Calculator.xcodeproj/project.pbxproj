@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD36BCC5169B8EBB000439FF /* SaveOptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD36BCC4169B8EBB000439FF /* SaveOptionsViewController.m */; };
 		AD50F57F169A337700C85B61 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD50F57E169A337700C85B61 /* UIKit.framework */; };
 		AD50F581169A337700C85B61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD50F580169A337700C85B61 /* Foundation.framework */; };
 		AD50F583169A337700C85B61 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD50F582169A337700C85B61 /* CoreGraphics.framework */; };
@@ -19,9 +20,13 @@
 		AD50F598169A337700C85B61 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD50F596169A337700C85B61 /* MainStoryboard_iPhone.storyboard */; };
 		AD50F59B169A337700C85B61 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD50F599169A337700C85B61 /* MainStoryboard_iPad.storyboard */; };
 		AD50F59E169A337700C85B61 /* Ovulation_CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD50F59D169A337700C85B61 /* Ovulation_CalculatorViewController.m */; };
+		AD50F5A5169A642600C85B61 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD50F5A4169A642600C85B61 /* EventKit.framework */; };
+		AD50F5A7169A643300C85B61 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD50F5A6169A643300C85B61 /* EventKitUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD36BCC3169B8EBB000439FF /* SaveOptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveOptionsViewController.h; sourceTree = "<group>"; };
+		AD36BCC4169B8EBB000439FF /* SaveOptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveOptionsViewController.m; sourceTree = "<group>"; };
 		AD50F57A169A337700C85B61 /* Ovulation Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ovulation Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD50F57E169A337700C85B61 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AD50F580169A337700C85B61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +44,8 @@
 		AD50F59A169A337700C85B61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		AD50F59C169A337700C85B61 /* Ovulation_CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ovulation_CalculatorViewController.h; sourceTree = "<group>"; };
 		AD50F59D169A337700C85B61 /* Ovulation_CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ovulation_CalculatorViewController.m; sourceTree = "<group>"; };
+		AD50F5A4169A642600C85B61 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		AD50F5A6169A643300C85B61 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD50F5A7169A643300C85B61 /* EventKitUI.framework in Frameworks */,
+				AD50F5A5169A642600C85B61 /* EventKit.framework in Frameworks */,
 				AD50F57F169A337700C85B61 /* UIKit.framework in Frameworks */,
 				AD50F581169A337700C85B61 /* Foundation.framework in Frameworks */,
 				AD50F583169A337700C85B61 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +84,8 @@
 		AD50F57D169A337700C85B61 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AD50F5A4169A642600C85B61 /* EventKit.framework */,
+				AD50F5A6169A643300C85B61 /* EventKitUI.framework */,
 				AD50F57E169A337700C85B61 /* UIKit.framework */,
 				AD50F580169A337700C85B61 /* Foundation.framework */,
 				AD50F582169A337700C85B61 /* CoreGraphics.framework */,
@@ -85,6 +96,8 @@
 		AD50F584169A337700C85B61 /* Ovulation Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				AD36BCC3169B8EBB000439FF /* SaveOptionsViewController.h */,
+				AD36BCC4169B8EBB000439FF /* SaveOptionsViewController.m */,
 				AD50F58D169A337700C85B61 /* Ovulation_CalculatorAppDelegate.h */,
 				AD50F58E169A337700C85B61 /* Ovulation_CalculatorAppDelegate.m */,
 				AD50F596169A337700C85B61 /* MainStoryboard_iPhone.storyboard */,
@@ -181,6 +194,7 @@
 				AD50F58B169A337700C85B61 /* main.m in Sources */,
 				AD50F58F169A337700C85B61 /* Ovulation_CalculatorAppDelegate.m in Sources */,
 				AD50F59E169A337700C85B61 /* Ovulation_CalculatorViewController.m in Sources */,
+				AD36BCC5169B8EBB000439FF /* SaveOptionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +321,7 @@
 				AD50F5A3169A337700C85B61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

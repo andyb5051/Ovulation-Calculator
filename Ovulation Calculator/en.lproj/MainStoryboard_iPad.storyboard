@@ -1,23 +1,214 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C3104" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--Ovulation Calculator View Controller-->
         <scene sceneID="4">
             <objects>
                 <viewController id="2" customClass="Ovulation_CalculatorViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5">
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <datePicker alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="jg0-8c-imf">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="319" id="9eE-6s-lUe"/>
+                                </constraints>
+                                <date key="date" timeIntervalSinceReferenceDate="379204645.21357697">
+                                    <!--2013-01-06 22:37:25 +0000-->
+                                </date>
+                                <timeZone key="timeZone" name="America/Los_Angeles">
+                                    <data key="data">
+VFppZgAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAC5AAAABAAAABCepkign7sVkKCGKqChmveQ
+y4kaoNIj9HDSYSYQ1v50INiArZDa/tGg28CQENzes6DdqayQ3r6VoN+JjpDgnneg4WlwkOJ+WaDjSVKQ
+5F47oOUpNJDmR1gg5xJREOgnOiDo8jMQ6gccIOrSFRDr5v4g7LH3EO3G4CDukdkQ76/8oPBxuxDxj96g
+8n/BkPNvwKD0X6OQ9U+ioPY/hZD3L4Sg+CiiEPkPZqD6CIQQ+viDIPvoZhD82GUg/chIEP64RyD/qCoQ
+AJgpIAGIDBACeAsgA3EokARhJ6AFUQqQBkEJoAcw7JAHjUOgCRDOkAmtvyAK8LCQC+CvoAzZzRANwJGg
+DrmvEA+priAQmZEQEYmQIBJ5cxATaXIgFFlVEBVJVCAWOTcQFyk2IBgiU5AZCRggGgI1kBryNKAb4heQ
+HNIWoB3B+ZAesfigH6HbkCB2KyAhgb2QIlYNICNq2hAkNe8gJUq8ECYV0SAnKp4QJ/7toCkKgBAp3s+g
+KupiECu+saAs036QLZ6ToC6zYJAvfnWgMJNCkDFnkiAycySQM0d0IDRTBpA1J1YgNjLokDcHOCA4HAUQ
+OOcaIDn75xA6xvwgO9vJEDywGKA9u6sQPo/6oD+bjRBAb9ygQYSpkEJPvqBDZIuQRC+goEVEbZBF89Mg
+Ry2KEEfTtSBJDWwQSbOXIErtThBLnLOgTNZqkE18laBOtkyQT1x3oFCWLpBRPFmgUnYQkFMcO6BUVfKQ
+VPwdoFY11JBW5TogWB7xEFjFHCBZ/tMQWqT+IFvetRBchOAgXb6XEF5kwiBfnnkQYE3eoGGHlZBiLcCg
+Y2d3kGQNoqBlR1mQZe2EoGcnO5BnzWagaQcdkGmtSKBq5v+Qa5ZlIGzQHBBtdkcgbq/+EG9WKSBwj+AQ
+cTYLIHJvwhBzFe0gdE+kEHT/CaB2OMCQdt7roHgYopB4vs2gefiEkHqer6B72GaQfH6RoH24SJB+XnOg
+f5gqkAABAAECAwEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEAAQABAAEA
+AQABAAEAAQAB//+dkAEA//+PgAAE//+dkAEI//+dkAEMUERUAFBTVABQV1QAUFBUAAAAAAEAAAABA
+</data>
+                                </timeZone>
+                            </datePicker>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="NOV-ph-w1f">
+                                <items>
+                                    <navigationItem title="Ovulation Calulator" id="T74-nh-hU5"/>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" indicatorStyle="white" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZB3-2U-YZp">
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="DMS-bD-nwS"/>
+                                    <constraint firstAttribute="width" constant="682" id="cXc-k8-geT"/>
+                                </constraints>
+                                <string key="text">When trying for a baby there are a great many factors that can both help and hinder you. In order for you to increase your chances of concieving, timing is of crucial importance. This app was designed to aid your chances of conception by calculating when you are ovulating. With this information you can carefully plot when you are most likely to concieve. To get going simply follow the questions below. Good luck and we hope that you will find success with this app.</string>
+                                <color key="textColor" name="selectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="1. Please enter the first day of your last period." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MQC-HQ-1m3">
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="RbW-J2-Zwy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" name="selectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="2. Please choose your averager cycle length in days. For example 28 days." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1LY-L8-sST">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="CYn-2m-Yq6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" name="selectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCc-Wn-Khb">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="123" id="ken-WC-gfh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="calculateButton:" destination="2" eventType="touchUpInside" id="d9A-C3-kK0"/>
+                                </connections>
+                            </button>
+                            <pickerView opaque="NO" clearsContextBeforeDrawing="NO" alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b5F-bY-fco">
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="196" id="sjS-8u-aMO"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="2" id="WNo-yc-Vma"/>
+                                    <outlet property="delegate" destination="2" id="AfH-pw-3Zg"/>
+                                </connections>
+                            </pickerView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pra-bd-qku">
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="91" id="2y9-JX-ZEL"/>
+                                </constraints>
+                                <string key="text">Next up we will calculate when you are most likely to concieve based on the information that you have given. Then once you have been given the dates that have been calculated, you can automatically add them into your devices iCal calendar application. This will give you automated reminders of when the best times to try and conceive are.</string>
+                                <color key="textColor" name="selectedTextBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Please click Next to continue..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0pk-EZ-T6d">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="264" id="f5L-e1-dG4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="right" translatesAutoresizingMaskIntoConstraints="NO" id="qlU-Bj-gz6">
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="W6S-zx-7Cx"/>
+                                    <constraint firstAttribute="width" constant="240" id="hNe-0u-IcB"/>
+                                </constraints>
+                                <string key="text">**Please note that your cycle is the amount of days that have elapsed from the first day of menstruation to the day before your next menstrual period starts</string>
+                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="0pk-EZ-T6d" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="2dy-CQ-zGP"/>
+                            <constraint firstAttribute="trailing" secondItem="DCc-Wn-Khb" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="3Wp-74-VaC"/>
+                            <constraint firstAttribute="bottom" secondItem="1LY-L8-sST" secondAttribute="bottom" constant="467" id="3fJ-dy-izb"/>
+                            <constraint firstItem="0pk-EZ-T6d" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="381" id="7ne-MQ-8f2"/>
+                            <constraint firstItem="pra-bd-qku" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="9eU-Xv-sCg"/>
+                            <constraint firstAttribute="bottom" secondItem="DCc-Wn-Khb" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="CpS-kW-pJI"/>
+                            <constraint firstItem="b5F-bY-fco" firstAttribute="top" secondItem="5" secondAttribute="top" constant="550" id="Ltu-p7-bXk"/>
+                            <constraint firstItem="qlU-Bj-gz6" firstAttribute="top" secondItem="b5F-bY-fco" secondAttribute="top" type="default" id="MKN-3X-m5Z"/>
+                            <constraint firstItem="1LY-L8-sST" firstAttribute="trailing" secondItem="MQC-HQ-1m3" secondAttribute="trailing" type="default" id="Nq5-KA-tZP"/>
+                            <constraint firstItem="ZB3-2U-YZp" firstAttribute="top" secondItem="5" secondAttribute="top" constant="51" id="OYv-Nq-Aaf"/>
+                            <constraint firstItem="qlU-Bj-gz6" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="PgZ-0B-0iE"/>
+                            <constraint firstItem="b5F-bY-fco" firstAttribute="centerX" secondItem="jg0-8c-imf" secondAttribute="centerX" type="default" id="aCN-b4-Qpd"/>
+                            <constraint firstItem="jg0-8c-imf" firstAttribute="top" secondItem="5" secondAttribute="top" constant="244" id="cJD-zM-CGu"/>
+                            <constraint firstItem="NOV-ph-w1f" firstAttribute="top" secondItem="5" secondAttribute="top" type="default" id="elu-jD-xJ4"/>
+                            <constraint firstItem="pra-bd-qku" firstAttribute="centerX" secondItem="b5F-bY-fco" secondAttribute="centerX" type="default" id="f3i-0Y-FkQ"/>
+                            <constraint firstAttribute="trailing" secondItem="pra-bd-qku" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="hEO-kU-NAp"/>
+                            <constraint firstItem="jg0-8c-imf" firstAttribute="centerX" secondItem="NOV-ph-w1f" secondAttribute="centerX" type="default" id="hhc-Gy-oxG"/>
+                            <constraint firstItem="ZB3-2U-YZp" firstAttribute="leading" secondItem="MQC-HQ-1m3" secondAttribute="leading" type="default" id="lj9-aU-3Vs"/>
+                            <constraint firstItem="1LY-L8-sST" firstAttribute="leading" secondItem="MQC-HQ-1m3" secondAttribute="leading" type="default" id="oJA-ee-xOc"/>
+                            <constraint firstItem="MQC-HQ-1m3" firstAttribute="top" secondItem="5" secondAttribute="top" constant="210" id="oUL-Z8-MAS"/>
+                            <constraint firstItem="ZB3-2U-YZp" firstAttribute="leading" secondItem="5" secondAttribute="leading" constant="11" id="qrt-1S-6OE"/>
+                            <constraint firstAttribute="bottom" secondItem="pra-bd-qku" secondAttribute="bottom" constant="106" id="v7R-2w-5j6"/>
+                            <constraint firstItem="NOV-ph-w1f" firstAttribute="leading" secondItem="5" secondAttribute="leading" type="default" id="xvi-PZ-epF"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="datePicker" destination="jg0-8c-imf" id="rVp-vr-pof"/>
+                        <outlet property="dayPicker" destination="b5F-bY-fco" id="PtU-4N-FKe"/>
+                        <segue destination="4Pp-T6-puO" kind="modal" identifier="OvulationCalc_SaveOptions" id="JSG-mw-qCA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--Save Options View Controller-->
+        <scene sceneID="RAi-Yr-E1Q">
+            <objects>
+                <viewController id="4Pp-T6-puO" customClass="SaveOptionsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L1r-NX-Idu">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackOpaque" translatesAutoresizingMaskIntoConstraints="NO" id="UEY-vO-rE7">
+                                <items>
+                                    <navigationItem title="Save Options" id="KJM-lm-eZe"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UEY-vO-rE7" firstAttribute="trailing" secondItem="L1r-NX-Idu" secondAttribute="trailing" type="default" id="HVN-Iv-jaB"/>
+                            <constraint firstItem="UEY-vO-rE7" firstAttribute="leading" secondItem="L1r-NX-Idu" secondAttribute="leading" type="default" id="c2Y-xi-Qjb"/>
+                            <constraint firstItem="UEY-vO-rE7" firstAttribute="top" secondItem="L1r-NX-Idu" secondAttribute="top" type="default" id="sC4-VO-IJw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="89s-dF-Uqs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2605" y="-226"/>
+        </scene>
     </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="Ovulation_CalculatorViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/Ovulation_CalculatorViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="calculateButton:"/>
+                <relationship kind="outlet" name="datePicker" candidateClass="UIDatePicker"/>
+                <relationship kind="outlet" name="dayPicker" candidateClass="UIPickerView"/>
+            </relationships>
+        </class>
+        <class className="SaveOptionsViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SaveOptionsViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
